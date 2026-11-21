@@ -18,7 +18,7 @@ The trained weights are hosted on the Hugging Face Hub (https://huggingface.co/A
 downloaded automatically the first time you start the app. Python 3.10+ is required.
 
 ```bash
-git clone <this-repo-url> && cd swe015-ticket-router
+git clone https://github.com/Absa1eem/swe015-ticket-router.git && cd swe015-ticket-router
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python app.py          # first start downloads the weights (~1 GB), then open http://127.0.0.1:7860
